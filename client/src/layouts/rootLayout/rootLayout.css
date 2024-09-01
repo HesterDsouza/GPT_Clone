@@ -1,0 +1,33 @@
+.rootLayout{
+    padding: 16px 64px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .hLogo{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            gap: 5px;;
+        }
+
+        .logo{
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            gap: 8px;
+            width: 45px;
+            height: 45px;
+        }
+    }
+
+    main{
+        flex: 1;
+        overflow: hidden;
+    }
+}
